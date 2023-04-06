@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background: #ffff;
+}
+.chat-container {
+  width: 425px;
+  margin: 0.75rem auto;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 5px 10px 29px 1px rgba(81, 24, 119, 0.5);
+}
+.chat {
+  margin: 1.25rem 1.25rem;
+  background: #ffe7ff;
+  border-radius: 30px;
+}
+
+/*HEADING*/
+
+.chat-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+}
+.name {
+  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 1.75rem;
+  color: rgb(255, 255, 255);
+}
+.name p {
+  opacity: 0.5;
+}
+.heading {
+  background: rgb(4, 2, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 2, 55, 1) 0%,
+    rgba(0, 8, 36, 0.41789215686274506) 0%,
+    rgba(179, 0, 255, 1) 34%,
+    rgba(120, 9, 121, 1) 100%
+  );
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-less-than {
+  background: transparent;
+  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+}
+.one,
+.two,
+.three {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: white;
+  margin-bottom: 0.5px;
+}
+.three-end {
+  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+/*MESSAGES*/
+
+.message-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin-right: 0.25rem;
+}
+
+.left-message {
+  margin-left: 0.75rem;
+  margin-top: 0.875rem;
+  background: hsl(277, 29%, 76%);
+  width: 240px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 20px;
+}
+.l-first-message,
+.l-second-message,
+.l-third-message p {
+  color: hsl(276, 55%, 52%);
+  padding-left: 0.45rem;
+}
+.l-first-message p {
+  width: 200px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-left: 0.75rem;
+}
+.l-fourth-message,
+.l-fifth-message {
+  background: rgb(4, 2, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 2, 55, 1) 0%,
+    rgba(0, 8, 36, 0.41789215686274506) 0%,
+    rgba(179, 0, 255, 1) 34%,
+    rgba(120, 9, 121, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  width: 280px;
+  color: white;
+}
+.money {
+  margin-right: 1.2rem;
+}
+.minutes-1 {
+  margin-right: 3.2rem;
+  opacity: 0.7;
+}
+.minutes-2 {
+  margin-right: 5rem;
+  opacity: 0.7;
+}
+
+/*INPUT CONTAINER*/
+
+input {
+  width: calc(375px - 0.75rem);
+  margin-left: 0.75rem;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+  border: transparent;
+  margin-bottom: 1rem;
+}
+.input-container {
+  position: relative;
+}
+
+.fa-greater-than {
+  background: hsl(276, 66%, 28%);
+  color: white;
+  padding: 0.75rem 0.75rem;
+  border-radius: 50%;
+  font-weight: 700;
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+/*RIGHT MESSAGES*/
+
+.right-message {
+  margin-top: 0.875rem;
+  background: white;
+  color: hsl(271, 15%, 43%);
+  padding: 0.5rem 0;
+}
+.r-first-message {
+  background: transparent;
+  transform: translateX(53%);
+}
+.r-second-message {
+  width: 240px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  transform: translateX(54%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.r-third-message {
+  width: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  transform: translateX(145%);
+  text-align: center;
+}
+
+/*INFO CONTAINER*/
+.info-container {
+  width: 400px;
+  margin: 3rem auto;
+  text-align: center;
+}
+.info-container h1 {
+  color: hsl(271, 36%, 24%);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.info-container p {
+  color: hsl(270, 7%, 64%);
+  width: 350px;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/*BIG SCREEN*/
+
+@media screen and (min-width: 965px) {
+  .main-section {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .info-container {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .info-container p {
+    margin: 0;
+    width: 450px;
+  }
+}
